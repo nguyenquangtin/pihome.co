@@ -16,9 +16,9 @@ const SiteNavbar = ({buttonBlock,darkLogo,siteLogoUrl}) => {
       >
         <Navbar.Brand href="/">
           {siteLogoUrl ? (
-            <img src={siteLogoUrl} alt="site-brand"/>
+            <img src={siteLogoUrl} alt="site-brand" style={{maxHeight: "100px"}} />
           ) : (
-            <img src={darkLogo ? siteBrandDark : siteBrandLight} alt="site-brand"/>
+            <img src={darkLogo ? siteBrandDark : siteBrandLight} alt="site-brand" style={{maxHeight: "100px"}}/>
           )}
         </Navbar.Brand>
         <Navbar.Toggle

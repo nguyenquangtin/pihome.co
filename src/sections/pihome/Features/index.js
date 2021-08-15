@@ -1,26 +1,49 @@
 import React from "react"
 import Card from './components/FeatureCard'
-import CardIconOne from '../../../assets/image/landing-3/video-icon.png';
-import CardIconTwo from '../../../assets/image/landing-3/surface-icon.png';
-import CardIconThree from '../../../assets/image/landing-3/dial-icon.png';
+
+import set1 from "../../../assets/image/set/6.jpg";
+import set2 from "../../../assets/image/set/7.jpg";
+import set3 from "../../../assets/image/set/8.jpg";
+import set4 from "../../../assets/image/set/9.jpg";
+import set5 from "../../../assets/image/set/10.jpg";
+import set6 from "../../../assets/image/set/11.jpg";
+
 const data = [
   {
-    icon: CardIconOne,
-    title: "Online Meeting",
+    icon: set1,
+    title: "TRĂNG VÀNG",
     cardClass:"card--feature-l9--1",
-    text: "Our Smart Meeting Assistant – complete with notes, action items and highlights – ensures you're not wasting time on mundane tasks."
+    text: "Hộp 6 bánh nhỏ 55g (170 - 200k) <br /> Hộp 6 bánh trung 80g (200 - 220k)<br /> Set hộp không: 35.000"
   },
   {
-    icon: CardIconTwo,
-    title: "Secure And Private",
-    cardClass:"card--feature-l9--2",
-    text: "Our Smart Meeting Assistant – complete with notes, action items and highlights – ensures you're not wasting time on mundane tasks."
-  },
-  {
-    icon: CardIconThree,
-    title: "International Dial",
+    icon: set2,
+    title: "HOÀNG KIM",
     cardClass:"card--feature-l9--3",
-    text: "Our Smart Meeting Assistant – complete with notes, action items and highlights – ensures you're not wasting time on mundane tasks."
+    text: "Hộp 6 bánh trung 80g (250 - 280k)<br />Set hộp không: 75.000"
+  },
+  {
+    icon: set3,
+    title: "KỲ LÂN CHIÊU TÀI",
+    cardClass:"card--feature-l9--2",
+    text: "Hộp 4 bánh lớn 150g (280 - 320k)<br />Set hộp không: 45.000"
+  },
+  {
+    icon: set4,
+    title: "HẰNG NGA",
+    cardClass:"card--feature-l9--3",
+    text: "Hộp 4 bánh lớn 150g ( 270 - 300k)<br />Set hộp không: 37.000)"
+  },
+  {
+    icon: set5,
+    title: "TRĂNG KỂ CHUYỆN",
+    cardClass:"card--feature-l9--1",
+    text: "Hộp 4 bánh lớn 150g (310 - 450k)<br />Set hộp không: 75.000"
+  },
+  {
+    icon: set6,
+    title: "THU MỘC",
+    cardClass:"card--feature-l9--2",
+    text: "Bánh tùy chọn<br />Giỏ mây: 20k"
   },
 ]
 const FeatureSection = ({ ...rest }) => {
@@ -40,11 +63,11 @@ const FeatureSection = ({ ...rest }) => {
                 <div className="icon-area">
                   <i className="fas fa-users" />
                 </div>
-                <h2>We help you stay connected</h2>
+                <h2>TIME-HONOURED TRADITIONS</h2>
                 <p>
-                  Leverage agile frameworks to provide a robust synopsis for
-                  high level overviews. Iterative approaches to corporate
-                  strategy
+                Celebrate the traditions and delights of the Mid-Autumn festival with our legendary PiHome Mooncakes. Intricately handcrafted favourites and heart-warming traditional mooncakes meticulously handcrafted by our PiHome master chefs to bring prosperity, peace and harmony to you and your loved ones.
+
+                Reserve your Mooncakes online from now till 15 September 2021.
                 </p>
               </div>
             </div>
@@ -58,10 +81,15 @@ const FeatureSection = ({ ...rest }) => {
               data-aos-once="true"
               key={key}
             >
-              
+
                 <Card iconImage={item.icon} title={item.title} text={item.text} cardClass={item.cardClass}/>
             </div>
               )})}
+          </div>
+          <div className="row justify-content-center feature-l9-items">
+            <h5 className="text-center">
+            (Giá set hộp bánh thay đổi tùy vào sự lựa chọn của bạn)
+            </h5>
           </div>
         </div>
       </div>

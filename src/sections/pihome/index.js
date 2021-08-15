@@ -7,5 +7,5 @@ export {
 } from "./Content"
 export { default as PricingSection } from "./Pricing"
 export { default as FooterSection } from "./Footer"
-
+export { default as TestimonialSection } from "./Testimonial"
 export { default as CtaSection } from "./Cta"
