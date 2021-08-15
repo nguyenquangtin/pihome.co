@@ -22,16 +22,16 @@ const data = [
     text: "Hộp 6 bánh trung 80g (250 - 280k)<br />Set hộp không: 75.000"
   },
   {
+    icon: set6,
+    title: "THU MỘC",
+    cardClass:"card--feature-l9--2",
+    text: "Bánh tùy chọn<br />Giỏ mây: 20k"
+  },
+  {
     icon: set3,
     title: "KỲ LÂN CHIÊU TÀI",
     cardClass:"card--feature-l9--2",
     text: "Hộp 4 bánh lớn 150g (280 - 320k)<br />Set hộp không: 45.000"
-  },
-  {
-    icon: set4,
-    title: "HẰNG NGA",
-    cardClass:"card--feature-l9--3",
-    text: "Hộp 4 bánh lớn 150g ( 270 - 300k)<br />Set hộp không: 37.000)"
   },
   {
     icon: set5,
@@ -40,10 +40,10 @@ const data = [
     text: "Hộp 4 bánh lớn 150g (310 - 450k)<br />Set hộp không: 75.000"
   },
   {
-    icon: set6,
-    title: "THU MỘC",
-    cardClass:"card--feature-l9--2",
-    text: "Bánh tùy chọn<br />Giỏ mây: 20k"
+    icon: set4,
+    title: "HẰNG NGA",
+    cardClass:"card--feature-l9--3",
+    text: "Hộp 4 bánh lớn 150g ( 270 - 300k)<br />Set hộp không: 37.000)"
   },
 ]
 const FeatureSection = ({ ...rest }) => {
@@ -60,10 +60,7 @@ const FeatureSection = ({ ...rest }) => {
               data-aos-once="true"
             >
               <div className="section__heading text-center">
-                <div className="icon-area">
-                  <i className="fas fa-users" />
-                </div>
-                <h2>TIME-HONOURED TRADITIONS</h2>
+                <h2>Trăng kể chuyện</h2>
                 <p>
                 Celebrate the traditions and delights of the Mid-Autumn festival with our legendary PiHome Mooncakes. Intricately handcrafted favourites and heart-warming traditional mooncakes meticulously handcrafted by our PiHome master chefs to bring prosperity, peace and harmony to you and your loved ones.
 

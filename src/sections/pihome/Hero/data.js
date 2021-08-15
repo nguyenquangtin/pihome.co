@@ -1,32 +1,27 @@
-import userImage from '../../../assets/image/landing-9/testimonial-1.png'
-import userImage2 from '../../../assets/image/landing-9/testimonial-2.png'
-import userImage3 from '../../../assets/image/landing-9/testimonial-3.png'
-import userImage4 from '../../../assets/image/landing-9/testimonial-4.png'
-import userImage5 from '../../../assets/image/landing-9/testimonial-5.png'
+
+import banner1 from "../../../assets/image/banners/d1.jpg"
+import banner2 from "../../../assets/image/banners/d2.jpg"
+import banner3 from "../../../assets/image/banners/d3.jpg"
+import banner4 from "../../../assets/image/banners/d4.jpg"
 
 export const TestimonialData = [
     {
-    image:userImage,
+    image:banner1,
     text:'"John helped us deliver a successful update to a responsive design. His willingness to see the job through is a great."',
     user:"Ann Franks"
 },
     {
-    image:userImage2,
+    image:banner2,
     text:'"John helped us deliver a successful update to a responsive design. His willingness to see the job through is a great."',
     user:"Ann Franks"
 },
     {
-    image:userImage3,
+    image:banner3,
     text:'"John helped us deliver a successful update to a responsive design. His willingness to see the job through is a great."',
     user:"Ann Franks"
 },
     {
-    image:userImage4,
-    text:'"John helped us deliver a successful update to a responsive design. His willingness to see the job through is a great."',
-    user:"Ann Franks"
-},
-    {
-    image:userImage5,
+    image:banner4,
     text:'"John helped us deliver a successful update to a responsive design. His willingness to see the job through is a great."',
     user:"Ann Franks"
 },

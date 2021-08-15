@@ -25,11 +25,9 @@ const ContentSectionOne = ({ ...rest }) => {
               <div className="content-box-l3-1">
                 <i className="fas fa-users" />
                 <div className="section__heading">
-                  <h2>Video conference is better, faster.</h2>
+                  <h2>BẢNG GIÁ BÁN LẺ</h2>
                   <p>
-                    Leverage agile frameworks to provide a robust synopsis for
-                    high level overviews. Iterative approach to corporate
-                    strategy foster collaborative thinking.
+                  Giá cho một cái bánh, đơn vị tính: ngàn đồng
                   </p>
                 </div>
                 <Link to="/" className="btn  btn--link focus-reset focus-reset">

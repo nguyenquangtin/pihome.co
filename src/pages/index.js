@@ -23,8 +23,8 @@ const PiHome = () => {
       <HeroSection />
       <FeatureSection />
       <ContentSectionOne />
-      <ContentSectionTwo />
-      <ContentSectionThree />
+      {/* <ContentSectionTwo />
+      <ContentSectionThree /> */}
       <PricingSection />
       <CtaSection />
       <FooterSection />

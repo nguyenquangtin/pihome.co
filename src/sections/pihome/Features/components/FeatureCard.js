@@ -14,7 +14,9 @@ const FeatureCard = ({iconImage,title,text,cardClass}) => {
           <p dangerouslySetInnerHTML={{ __html: text }}></p>
         </div>
         <div className="card--feature-l9__btn">
-          <button className="btn focus-reset">Learn more</button>
+          <button className="btn focus-reset">
+            Đặt hàng
+          </button>
         </div>
       </div>
     </>
