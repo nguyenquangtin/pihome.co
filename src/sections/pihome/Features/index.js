@@ -64,12 +64,14 @@ const FeatureSection = ({ ...rest }) => {
               <div className="section__heading text-center">
                 <h2>Trăng kể chuyện</h2>
                 <p>
-                  Celebrate the traditions and delights of the Mid-Autumn
-                  festival with our legendary PiHome Mooncakes. Intricately
-                  handcrafted favourites and heart-warming traditional mooncakes
-                  meticulously handcrafted by our PiHome master chefs to bring
-                  prosperity, peace and harmony to you and your loved ones.
-                  Reserve your Mooncakes online from now till 15 September 2021.
+                  Trung thu làm khách bên hồ<br />
+                  Hồ Tây, Trúc Bạch quanh bờ chen chân<br />
+                  Trăng vàng ánh lạc sóng ngần<br />
+                  Điện cây chiếu toả, lá tầng vẫy mâ y<br />
+                  Bụi trần đâu dễ tìm ai<br />
+                  Bạn xưa thuở trước biệt thời khó hơn<br />
+                  Năm sau trăng đấy liệu còn <br />
+                  Cùng ai lại ngắm sóng vờn nước mây ?<br />
                 </p>
               </div>
             </div>

@@ -18,13 +18,13 @@ const PricingSection = ({ ...rest }) => {
       </div>
     </div>
     <div className="row justify-content-center pricing-l3-1-items table-responsive">
-      <table class="table table-bordered table-hover table-condensed table-striped" data-aos="fade-right" data-aos-duration={800} data-aos-once="true">
+      <table className="table table-bordered table-hover table-condensed table-striped" data-aos="fade-right" data-aos-duration={800} data-aos-once="true">
 <thead>
 <tr>
 <th title="Field #1">&nbsp;</th>
-<th title="Field #2" colspan="3" align="center" className="text-center">Bánh nhỏ 55g</th>
-<th title="Field #5" colspan="2" align="center" className="text-center">Bánh trung 80g</th>
-<th title="Field #7" colspan="3"align="center" className="text-center">Bánh lớn 155g</th>
+<th title="Field #2" colSpan="3" align="center" className="text-center">Bánh nhỏ 55g</th>
+<th title="Field #5" colSpan="2" align="center" className="text-center">Bánh trung 80g</th>
+<th title="Field #7" colSpan="3"align="center" className="text-center">Bánh lớn 155g</th>
 </tr>
 
   <tr>

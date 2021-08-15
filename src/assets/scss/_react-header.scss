@@ -34,16 +34,16 @@
           right: 0;
           width: 100%;
           z-index: 999;
-    
+
           @media (min-width: 992px) {
             position: fixed !important;
             transition: 0.4s;
-    
+
             &.scrolling {
               transform: translateY(-100%);
               transition: 0.4s;
             }
-    
+
             &.reveal-header {
               transform: translateY(0%);
               box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
@@ -51,7 +51,7 @@
             }
           }
         }
-    
+
         &.mobile-sticky-enable {
           top: 0;
           right: 0;
@@ -63,7 +63,7 @@
             transform: translateY(-100%);
             transition: 0.4s;
           }
-    
+
           &.reveal-header {
             transform: translateY(0%);
             box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
@@ -184,7 +184,7 @@
             @media (min-width: 992px) {
               transform: translate(-95%);
               pointer-events: none;
-              
+
             }
           }
           &>.dropdown-toggle{
@@ -227,7 +227,7 @@
             }
           }
         }
-    
+
         .megadropdown {
           transition: 0.4s top;
           @media (min-width: 992px) {
@@ -344,15 +344,15 @@
             transition: height 0s;
             height: 100%;
           }
-    
+
           &::-webkit-scrollbar {
             width: 8px;
           }
-    
+
           &::-webkit-scrollbar-track {
             background: #fff;
           }
-    
+
           &::-webkit-scrollbar-thumb {
             background-color: #416ff4;
             outline: 1px solid slategrey;
@@ -384,7 +384,7 @@
             }
         }
       }
-    
+
       .dropdown-toggle {
 
         @media (max-width: 992px) {
@@ -417,7 +417,7 @@
           }
         }
       }
-    
+
       // .main-nav-item:hover, {
       .main-nav-item.show {
         > .dropdown-toggle:after {
@@ -438,15 +438,15 @@
         padding-left: 10px;
         padding-right: 10px;
       }
-  
+
       @include desktops {
         padding-left: 20px;
         padding-right: 20px;
       }
-  
+
     }
   }
-  
+
 
   .site-header--menu-center{
       .navbar-collapse{
