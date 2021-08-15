@@ -57,7 +57,7 @@ export default function PageWrapper({
   return (
     <>
     <Helmet>
-          <title>Sandar</title>
+          <title>PiHome</title>
           <link rel="icon" type="image/png" href={favicon} />
     </Helmet>
     <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
