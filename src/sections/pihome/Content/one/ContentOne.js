@@ -1,13 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import imageOne from "../../../../assets/image/landing-3/video-main-img.png"
-import imageTwo from "../../../../assets/image/landing-3/video-shape-1.png"
-import imageThree from "../../../../assets/image/landing-3/video-shape-2.png"
-import imagefour from "../../../../assets/image/landing-3/video-shape-3.png"
-import imageOneMini from "../../../../assets/image/landing-3/video-tab-1.png"
-import imageTwoMini from "../../../../assets/image/landing-3/video-tab-2.png"
-import imageThreeMini from "../../../../assets/image/landing-3/video-tab-3.png"
-import imagefourMini from "../../../../assets/image/landing-3/video-tab-4.png"
 
 const ContentSectionOne = ({ ...rest }) => {
   return (
@@ -17,7 +9,7 @@ const ContentSectionOne = ({ ...rest }) => {
         <div className="container">
           <div className="row justify-content-center">
             <div
-              className="col-xxl-5 col-xl-6 col-lg-6 col-md-10 order-lg-0 order-1"
+              className="col-xxl-12 col-xl-12 col-lg-6 col-md-12 order-lg-0 order-1"
               data-aos="fade-right"
               data-aos-duration={800}
               data-aos-once="true"
@@ -41,34 +33,6 @@ const ContentSectionOne = ({ ...rest }) => {
               data-aos-duration={800}
               data-aos-once="true"
             >
-              <div className="content-l3-1-image-group">
-                <div className="image-1">
-                  <img src={imageOne} alt="content" />
-                </div>
-                <div className="image-2">
-                  <img src={imageTwo} alt="content" />
-                </div>
-                <div className="image-3">
-                  <img src={imageThree} alt="content" />
-                </div>
-                <div className="image-4">
-                  <img src={imagefour} alt="content" />
-                </div>
-              </div>
-              <div className="row justify-content-center video-conference-people">
-                <div className="col-lg-3 col-3">
-                  <img src={imageOneMini} alt="content" />
-                </div>
-                <div className="col-lg-3 col-3">
-                  <img src={imageTwoMini} alt="content" />
-                </div>
-                <div className="col-lg-3 col-3">
-                  <img src={imageThreeMini} alt="content" />
-                </div>
-                <div className="col-lg-3 col-3">
-                  <img src={imagefourMini} alt="content" />
-                </div>
-              </div>
             </div>
           </div>
         </div>

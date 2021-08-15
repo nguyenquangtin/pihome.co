@@ -22,9 +22,6 @@ const PiHome = () => {
     <PageWrapper headerConfig={Header}>
       <HeroSection />
       <FeatureSection />
-      <ContentSectionOne />
-      {/* <ContentSectionTwo />
-      <ContentSectionThree /> */}
       <PricingSection />
       <CtaSection />
       <FooterSection />

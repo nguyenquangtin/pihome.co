@@ -12,81 +12,222 @@ const PricingSection = ({ ...rest }) => {
           <div className="icon-area">
             <i className="fas fa-dollar-sign" />
           </div>
-          <h2>Plan and Pricing</h2>
-          <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+          <h2>Bảng giá bán lẻ</h2>
+          <p>Giá cho một cái bánh, đơn vị tính: ngàn đồng</p>
         </div>
       </div>
     </div>
-    <div className="row justify-content-center pricing-l3-1-items">
-      <div className="col-lg-4 col-md-6 col-sm-10" data-aos="fade-right" data-aos-duration={800} data-aos-once="true">
-        <div className="card card--pricing-l3-1">
-          <div className="card--pricing-l3-1__head">
-            <h6>Pro plan</h6>
-          </div>
-          <div className="card--pricing-l3-1__price">
-            <h2>$29/mo</h2>
-            <span>$290 billed annualy</span>
-            <div className="price-l3-btn">
-            <Link to="/" className="btn focus-reset">Get Started <i className="fas fa-arrow-right" /></Link>
-            </div>
-          </div>
-          <div className="price-l3-border" />
-          <div className="card--pricing-l3-1__service">
-            <ul className="list-unstyled">
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>02 Active Accounts</li>
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>Unlimited Meeting Time</li>
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>Upto 50 People Meeting</li>
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>100 GB Cloud Storage </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-4 col-md-6 col-sm-10" data-aos="fade-up" data-aos-duration={800} data-aos-once="true">
-        <div className="card card--pricing-l3-1">
-          <div className="card--pricing-l3-1__head">
-            <h6>Advanced plan</h6>
-          </div>
-          <div className="card--pricing-l3-1__price">
-            <h2>$99/mo</h2>
-            <span>$990 billed annualy</span>
-            <div className="price-l3-btn">
-              <Link to="/" className="btn focus-reset">Get Started <i className="fas fa-arrow-right" /></Link>
-            </div>
-          </div>
-          <div className="price-l3-border" />
-          <div className="card--pricing-l3-1__service">
-            <ul className="list-unstyled">
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>02 Active Accounts</li>
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>Unlimited Meeting Time</li>
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>Upto 50 People Meeting</li>
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>500 GB Cloud Storage</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-4 col-md-6 col-sm-10" data-aos="fade-left" data-aos-duration={800} data-aos-once="true">
-        <div className="card card--pricing-l3-1">
-          <div className="card--pricing-l3-1__head">
-            <h6>Enterprise plan</h6>
-          </div>
-          <div className="card--pricing-l3-1__price">
-            <h2>$149/mo</h2>
-            <span>$1300 billed annualy</span>
-            <div className="price-l3-btn">
-            <Link to="/" className="btn focus-reset">Get Started <i className="fas fa-arrow-right" /></Link>
-            </div>
-          </div>
-          <div className="price-l3-border" />
-          <div className="card--pricing-l3-1__service">
-            <ul className="list-unstyled">
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>02 Active Accounts</li>
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>Unlimited Meeting Time</li>
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>Upto 50 People Meeting</li>
-              <li className="d-inline-flex align-items-center"><span><i className="fas fa-check" /></span>1 TB Cloud Storage</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div className="row justify-content-center pricing-l3-1-items table-responsive">
+      <table class="table table-bordered table-hover table-condensed table-striped" data-aos="fade-right" data-aos-duration={800} data-aos-once="true">
+<thead>
+<tr>
+<th title="Field #1">&nbsp;</th>
+<th title="Field #2" colspan="3" align="center" className="text-center">Bánh nhỏ 55g</th>
+<th title="Field #5" colspan="2" align="center" className="text-center">Bánh trung 80g</th>
+<th title="Field #7" colspan="3"align="center" className="text-center">Bánh lớn 155g</th>
+</tr>
+
+  <tr>
+<th title="Field #1">Loại nhân</th>
+<th title="Field #2">Bánh dẻo</th>
+<th title="Field #3">Nướng TT</th>
+<th title="Field #4">Hiện đại</th>
+
+<th title="Field #5">Bánh dẻo</th>
+<th title="Field #6">Nướng TT</th>
+
+<th title="Field #7">Bánh dẻo</th>
+<th title="Field #8">Nướng TT</th>
+<th title="Field #9">Hiện đại</th>
+</tr></thead>
+<tbody><tr>
+<td>Đậu xanh</td>
+<td align="right">18</td>
+<td align="right">22</td>
+<td align="right">25</td>
+<td align="right">25</td>
+<td align="right">30</td>
+<td align="right">48</td>
+<td align="right">58</td>
+<td align="right">90</td>
+</tr>
+<tr>
+<td>Hạt sen</td>
+<td align="right">20</td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">50</td>
+<td align="right">60</td>
+<td align="right">95</td>
+</tr>
+<tr>
+<td>Trà xanh</td>
+<td align="right">18</td>
+<td align="right">22</td>
+<td align="right">25</td>
+<td align="right">25</td>
+<td align="right">30</td>
+<td align="right">48</td>
+<td align="right">58</td>
+<td align="right">90</td>
+</tr>
+<tr>
+<td>Sữa dừa</td>
+<td align="right">18</td>
+<td align="right">22</td>
+<td align="right">25</td>
+<td align="right">25</td>
+<td align="right">30</td>
+<td align="right">48</td>
+<td align="right">58</td>
+<td align="right">90</td>
+</tr>
+<tr>
+<td>Khoai môn</td>
+<td align="right">20</td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">50</td>
+<td align="right">60</td>
+<td align="right">95</td>
+</tr>
+<tr>
+<td>Sầu riêng</td>
+<td align="right">20</td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">50</td>
+<td align="right">60</td>
+<td align="right">95</td>
+</tr>
+<tr>
+<td>Cốm dừa</td>
+<td align="right">20</td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">50</td>
+<td align="right">60</td>
+<td align="right">95</td>
+</tr>
+<tr>
+<td>Chocolate mint</td>
+<td align="right">20</td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">50</td>
+<td align="right">60</td>
+<td align="right">95</td>
+</tr>
+<tr>
+<td>Dâu tây</td>
+<td align="right">20</td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">50</td>
+<td align="right">60</td>
+<td align="right">95</td>
+</tr>
+<tr>
+<td>Quế hoa hạt chia</td>
+<td align="right">20</td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">50</td>
+<td align="right">60</td>
+<td align="right">95</td>
+</tr>
+<tr>
+<td>Táo đỏ Tân Cương</td>
+<td align="right">20</td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">50</td>
+<td align="right">60</td>
+<td align="right">95</td>
+</tr>
+<tr>
+<td>Lychee (Lệ Chi)</td>
+<td align="right">20</td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">50</td>
+<td align="right">60</td>
+<td align="right">95</td>
+</tr>
+<tr>
+<td>Hoa quả nhiệt đới</td>
+<td align="right">20</td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">50</td>
+<td align="right">60</td>
+<td align="right">95</td>
+</tr>
+<tr>
+<td>Trà gừng long nhãn</td>
+<td align="right">20</td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">50</td>
+<td align="right">60</td>
+<td align="right">95</td>
+</tr>
+<tr>
+<td>Thập cẩm xá xíu</td>
+<td align="right"></td>
+<td align="right">27</td>
+<td align="right">30</td>
+<td align="right"></td>
+<td align="right">35</td>
+<td align="right"></td>
+<td align="right">70</td>
+<td align="right">100</td>
+</tr>
+<tr>
+<td>TC gà quay lạp khô</td>
+<td align="right"></td>
+<td align="right">27</td>
+<td align="right">30</td>
+<td align="right"></td>
+<td align="right">35</td>
+<td align="right"></td>
+<td align="right">70</td>
+<td align="right">100</td>
+</tr>
+<tr>
+<td>Thập cẩm chay </td>
+<td align="right"></td>
+<td align="right">25</td>
+<td align="right">28</td>
+<td align="right"></td>
+<td align="right">32</td>
+<td align="right"></td>
+<td align="right">65</td>
+<td align="right">95</td>
+</tr>
+</tbody></table>
     </div>
   </div>
 </div>
