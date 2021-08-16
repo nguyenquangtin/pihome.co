@@ -5,7 +5,6 @@ import Link  from "../Link";
 import { Helmet } from "react-helmet";
 import favicon from '../../assets/image/favicon.png'
 import Preloader from '../../assets/image/preloader.gif'
-import bgImage from '../../assets/image/bg-mooncake.jpg'
 
 const innerHeader = {
   headerClasses: "site-header--menu-center light-header position-relative inner-page-header",
