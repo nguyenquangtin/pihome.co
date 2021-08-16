@@ -49,20 +49,8 @@ import image48  from '../assets/image/collection/2021/c_2021_48.jpg';
 
 const GalleryCakes = {}
 
-GalleryCakes.masonryDetails2 =[{
-  image:image1,
-  titleSmall:"PiHome",
-  title:"HẰNG NGA",
-  id:"1",
-  tagi: "set"
-},
-{
-  image:image2,
-  titleSmall:"PiHome",
-  title:"HẰNG NGA",
-  id:"2",
-  tagi: "set"
-},
+GalleryCakes.masonryDetails2 =[
+
 {
   image:image3,
   titleSmall:"PiHome",
@@ -103,13 +91,6 @@ GalleryCakes.masonryDetails2 =[{
   titleSmall:"PiHome",
   title:"Banh",
   id:"8",
-  tagi: "photography"
-},
-{
-  image:image9,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"9",
   tagi: "photography"
 },
 {
@@ -168,13 +149,7 @@ GalleryCakes.masonryDetails2 =[{
   id:"17",
   tagi: "photography"
 },
-{
-  image:image18,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"18",
-  tagi: "photography"
-},
+
 {
   image:image19,
   titleSmall:"PiHome",
@@ -194,6 +169,55 @@ GalleryCakes.masonryDetails2 =[{
   titleSmall:"PiHome",
   title:"Banh",
   id:"21",
+  tagi: "photography"
+},
+{
+  image:image32,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"32",
+  tagi: "photography"
+},
+{
+  image:image33,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"33",
+  tagi: "photography"
+},
+{
+  image:image34,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"34",
+  tagi: "photography"
+},
+{
+  image:image35,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"35",
+  tagi: "photography"
+},
+{
+  image:image41,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"41",
+  tagi: "photography"
+},
+{
+  image:image36,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"36",
+  tagi: "photography"
+},
+{
+  image:image30,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"30",
   tagi: "photography"
 },
 {
@@ -252,13 +276,7 @@ GalleryCakes.masonryDetails2 =[{
   id:"29",
   tagi: "photography"
 },
-{
-  image:image30,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"30",
-  tagi: "photography"
-},
+
 {
   image:image31,
   titleSmall:"PiHome",
@@ -267,38 +285,10 @@ GalleryCakes.masonryDetails2 =[{
   tagi: "photography"
 },
 {
-  image:image32,
+  image:image43,
   titleSmall:"PiHome",
   title:"Banh",
-  id:"32",
-  tagi: "photography"
-},
-{
-  image:image33,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"33",
-  tagi: "photography"
-},
-{
-  image:image34,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"34",
-  tagi: "photography"
-},
-{
-  image:image35,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"35",
-  tagi: "photography"
-},
-{
-  image:image36,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"36",
+  id:"43",
   tagi: "photography"
 },
 {
@@ -330,24 +320,10 @@ GalleryCakes.masonryDetails2 =[{
   tagi: "photography"
 },
 {
-  image:image41,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"41",
-  tagi: "photography"
-},
-{
   image:image42,
   titleSmall:"PiHome",
   title:"Banh",
   id:"42",
-  tagi: "photography"
-},
-{
-  image:image43,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"43",
   tagi: "photography"
 },
 {
@@ -384,6 +360,34 @@ GalleryCakes.masonryDetails2 =[{
   title:"Banh",
   id:"48",
   tagi: "photography"
-}
+},
+{
+  image:image1,
+  titleSmall:"PiHome",
+  title:"HẰNG NGA",
+  id:"1",
+  tagi: "set"
+},
+{
+  image:image2,
+  titleSmall:"PiHome",
+  title:"HẰNG NGA",
+  id:"2",
+  tagi: "set"
+},
+{
+  image:image9,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"9",
+  tagi: "photography"
+},
+{
+  image:image18,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"18",
+  tagi: "photography"
+},
 ]
 export default GalleryCakes;

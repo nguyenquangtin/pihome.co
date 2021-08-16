@@ -101,6 +101,7 @@ export default function MainContent() {
                           image={image}
                           titleSmall={titleSmall}
                           title={title}
+                          id={id}
                         />
                         </div>
                       )

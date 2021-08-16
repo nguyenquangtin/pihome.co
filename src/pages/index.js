@@ -12,7 +12,6 @@ import {
   FooterSection
 } from "../sections/pihome"
 import PageWrapper from '../components/PageWrapper';
-
 import BannerSection from "../sections/pihome/Masonry/Banner"
 import MasonryBody  from "../sections/pihome/Masonry/ColFour"
 
