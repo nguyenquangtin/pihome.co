@@ -225,9 +225,20 @@ export const menuItems = [
         //    name: "blog",
         //    label: "Blog",
         //  },
-        //  {
-        //    name: "https://finestdevs.com/product-support/",
-        //    label: "Support",
-        //    isExternal: true,
-        //  },
+         {
+           name: "#set",
+           label: "Hộp bánh",
+         },
+         {
+           name: "#services",
+           label: "Dịch vụ",
+         },
+         {
+           name: "#pricing",
+           label: "Bảng giá",
+         },
+         {
+           name: "#gallery",
+           label: "Bộ sưu tập",
+         },
        ];

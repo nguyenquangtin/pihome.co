@@ -63,35 +63,35 @@ GalleryCakes.masonryDetails2 =[
   titleSmall:"PiHome",
   title:"Banh",
   id:"4",
-  tagi: "photography"
+  tagi: "animal"
 },
 {
   image:image5,
   titleSmall:"PiHome",
   title:"Banh",
   id:"5",
-  tagi: "photography"
+  tagi: "animal"
 },
 {
   image:image6,
   titleSmall:"PiHome",
   title:"Banh",
   id:"6",
-  tagi: "photography"
+  tagi: "animal"
 },
 {
   image:image7,
   titleSmall:"PiHome",
   title:"Banh",
   id:"7",
-  tagi: "photography"
+  tagi: "animal"
 },
 {
   image:image8,
   titleSmall:"PiHome",
   title:"Banh",
   id:"8",
-  tagi: "photography"
+  tagi: "animal"
 },
 {
   image:image10,
@@ -147,7 +147,7 @@ GalleryCakes.masonryDetails2 =[
   titleSmall:"PiHome",
   title:"Banh",
   id:"17",
-  tagi: "photography"
+  tagi: "deo"
 },
 
 {
@@ -162,14 +162,14 @@ GalleryCakes.masonryDetails2 =[
   titleSmall:"PiHome",
   title:"Banh",
   id:"20",
-  tagi: "photography"
+  tagi: "deo"
 },
 {
   image:image21,
   titleSmall:"PiHome",
   title:"Banh",
   id:"21",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image32,
@@ -183,7 +183,7 @@ GalleryCakes.masonryDetails2 =[
   titleSmall:"PiHome",
   title:"Banh",
   id:"33",
-  tagi: "photography"
+  tagi: "modern"
 },
 {
   image:image34,
@@ -193,173 +193,172 @@ GalleryCakes.masonryDetails2 =[
   tagi: "photography"
 },
 {
-  image:image35,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"35",
-  tagi: "photography"
-},
-{
-  image:image41,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"41",
-  tagi: "photography"
-},
-{
-  image:image36,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"36",
-  tagi: "photography"
-},
-{
-  image:image30,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"30",
-  tagi: "photography"
-},
-{
-  image:image22,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"22",
-  tagi: "photography"
-},
-{
-  image:image23,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"23",
-  tagi: "photography"
-},
-{
-  image:image24,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"24",
-  tagi: "photography"
-},
-{
-  image:image25,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"25",
-  tagi: "photography"
-},
-{
-  image:image26,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"26",
-  tagi: "photography"
-},
-{
-  image:image27,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"27",
-  tagi: "photography"
-},
-{
-  image:image28,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"28",
-  tagi: "photography"
-},
-{
-  image:image29,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"29",
-  tagi: "photography"
-},
-
-{
   image:image31,
   titleSmall:"PiHome",
   title:"Banh",
   id:"31",
-  tagi: "photography"
+  tagi: "animal"
 },
 {
   image:image43,
   titleSmall:"PiHome",
   title:"Banh",
   id:"43",
-  tagi: "photography"
+  tagi: "animal"
+},
+{
+  image:image35,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"35",
+  tagi: "animal"
+},
+{
+  image:image41,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"41",
+  tagi: "modern"
+},
+{
+  image:image36,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"animal",
+  tagi: "set"
+},
+{
+  image:image30,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"30",
+  tagi: "set"
+},
+{
+  image:image22,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"22",
+  tagi: "set"
+},
+{
+  image:image23,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"23",
+  tagi: "set"
+},
+{
+  image:image24,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"24",
+  tagi: "set"
+},
+{
+  image:image25,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"25",
+  tagi: "set"
+},
+{
+  image:image26,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"26",
+  tagi: "set"
+},
+{
+  image:image27,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"27",
+  tagi: "set"
+},
+{
+  image:image28,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"28",
+  tagi: "set"
+},
+{
+  image:image29,
+  titleSmall:"PiHome",
+  title:"Banh",
+  id:"29",
+  tagi: "set"
 },
 {
   image:image37,
   titleSmall:"PiHome",
   title:"Banh",
   id:"37",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image38,
   titleSmall:"PiHome",
   title:"Banh",
   id:"38",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image39,
   titleSmall:"PiHome",
   title:"Banh",
   id:"39",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image40,
   titleSmall:"PiHome",
   title:"Banh",
   id:"40",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image42,
   titleSmall:"PiHome",
   title:"Banh",
   id:"42",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image44,
   titleSmall:"PiHome",
   title:"Banh",
   id:"44",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image45,
   titleSmall:"PiHome",
   title:"Banh",
   id:"45",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image46,
   titleSmall:"PiHome",
   title:"Banh",
   id:"46",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image47,
   titleSmall:"PiHome",
   title:"Banh",
   id:"47",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image48,
   titleSmall:"PiHome",
   title:"Banh",
   id:"48",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image1,
@@ -380,14 +379,14 @@ GalleryCakes.masonryDetails2 =[
   titleSmall:"PiHome",
   title:"Banh",
   id:"9",
-  tagi: "photography"
+  tagi: "set"
 },
 {
   image:image18,
   titleSmall:"PiHome",
   title:"Banh",
   id:"18",
-  tagi: "photography"
+  tagi: "set"
 },
 ]
 export default GalleryCakes;

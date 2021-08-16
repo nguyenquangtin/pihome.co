@@ -52,7 +52,7 @@ const FeatureSection = ({ ...rest }) => {
   return (
     <>
       {/* Feature Area */}
-      <div className="feature-area-l3-1">
+      <div className="feature-area-l3-1" id="set">
         <div className="container">
           <div className="row justify-content-center">
             <div

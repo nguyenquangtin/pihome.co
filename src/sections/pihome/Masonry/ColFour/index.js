@@ -35,7 +35,7 @@ export default function MainContent() {
 
   return (
     <>
-      <div className="portfolio-section pt-90" id="portfolio-section">
+      <div className="portfolio-section pt-90" id="gallery">
       <div className="container">
           <div className="row">
             <div className="col-lg-12 portfolio-navbar">
@@ -59,7 +59,7 @@ export default function MainContent() {
                 </li>
                 <li className="nav-item">
                   <TagButton
-                    name="branding"
+                    name="deo"
                     tagActive={tag}
                     handleSetTag={setTag}
                   >
@@ -67,8 +67,8 @@ export default function MainContent() {
                   </TagButton>
                 </li>
                 <li className="nav-item">
-                  <TagButton name="ux" tagActive={tag} handleSetTag={setTag}>
-                    Nướng
+                  <TagButton name="modern" tagActive={tag} handleSetTag={setTag}>
+                    Hiện đại
                   </TagButton>
                 </li>
                 <li className="nav-item">
@@ -77,7 +77,16 @@ export default function MainContent() {
                     tagActive={tag}
                     handleSetTag={setTag}
                   >
-                    Hiện đại
+                    Nướng
+                  </TagButton>
+                </li>
+                <li className="nav-item">
+                  <TagButton
+                    name="animal"
+                    tagActive={tag}
+                    handleSetTag={setTag}
+                  >
+                    Thú
                   </TagButton>
                 </li>
               </ul>
