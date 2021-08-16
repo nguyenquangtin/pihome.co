@@ -50,6 +50,15 @@ export default function MainContent() {
                 </li>
                 <li className="nav-item">
                   <TagButton
+                    name="set"
+                    tagActive={tag}
+                    handleSetTag={setTag}
+                  >
+                    Set bánh
+                  </TagButton>
+                </li>
+                <li className="nav-item">
+                  <TagButton
                     name="branding"
                     tagActive={tag}
                     handleSetTag={setTag}
