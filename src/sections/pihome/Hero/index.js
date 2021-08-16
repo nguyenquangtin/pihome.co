@@ -1,6 +1,6 @@
 
 import React,{useRef} from "react"
-import Link from '../../../components/Link'
+// import Link from '../../../components/Link'
 import Slider from "react-slick"
 import Slide from "./Slide"
 import {TestimonialData} from "./data"

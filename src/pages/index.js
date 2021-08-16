@@ -1,20 +1,16 @@
 import React from "react"
-import Link from "../components/Link"
+// import Link from "../components/Link"
 import {
   HeroSection,
   FeatureSection,
   FeatureSection2,
   CtaSection,
-  ContentSectionOne,
-  ContentSectionTwo,
-  ContentSectionThree,
   PricingSection,
   FooterSection
 } from "../sections/pihome"
 import PageWrapper from '../components/PageWrapper';
 import BannerSection from "../sections/pihome/Masonry/Banner"
 import MasonryBody  from "../sections/pihome/Masonry/ColFour"
-
 
 const Header = {
   headerClasses:"site-header--menu-center site-header--sticky dark-header-2",
