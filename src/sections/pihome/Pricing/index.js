@@ -4,7 +4,7 @@ const PricingSection = ({ ...rest }) => {
   return (
     <>
       {/* Pricing Area  */}
-<div className="pricing-area-l3-1 bg-catskillwhite" id="pricing">
+<div className="pricing-area-l3-1" id="pricing">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-xxl-6 col-xl-7 col-lg-9 col-md-11" data-aos="fade-in" data-aos-duration={800} data-aos-once="true">

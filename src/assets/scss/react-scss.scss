@@ -1,4 +1,4 @@
-@import "helpers/theme-media-query"; 
+@import "helpers/theme-media-query";
 @import "theme-mode-control/theme-mode-activation";
 @import "bs-theming/bs-theming";
 @import "../../../node_modules/bootstrap/scss/functions";
@@ -9,6 +9,16 @@
 @import "helpers/functions";
 @import "helpers/mixins";
 @import "./react-header";
+
+body {
+  background-image: url("../image/bg-mooncake.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-repeat: repeat;
+}
+
 span,a{
     display: inline-block;
 }
@@ -49,12 +59,12 @@ body > div{
     .slick-list{
         margin: 0px -15px;
     }
-  
+
     .slick-slide {
       padding: 0px 15px;
     }
   }
-  
+
 .btn-reset{
     background-color: transparent;
     border: 0;
@@ -103,7 +113,7 @@ body > div{
             line-height: normal;
             position: relative;
             padding-right: 20px;
-    
+
             &:hover {
                 color: $white;
             }
@@ -124,7 +134,7 @@ body > div{
                 -webkit-transition: all 0.2s ease-in-out;
                 transition: all 0.2s ease-in-out;
             }
-        
+
         }
     }
 
@@ -157,7 +167,7 @@ body > div{
     @include tablet {
         margin-bottom: 40px;
     }
-  
+
     @include desktops {
         margin-bottom: 60px;
     }
@@ -350,7 +360,7 @@ body > div{
 }
 
 .header-btn{
-    
+
 .sign-in-btn{
     &-l2 {
         background-color: #416ff4;
@@ -403,7 +413,7 @@ body > div{
             margin-right: 15px;
         }
     }
-    
+
 }
 
 .inner-header-buttons{
@@ -433,7 +443,7 @@ body > div{
         height: 46px;
         border-radius: 6px;
     }
-    
+
 }
 .site-header-5{
     .navbar-collapse{
@@ -450,11 +460,11 @@ body > div{
 
 .portfolio-navbar {
     padding: 30px 0px;
-  
+
     @include tablet {
       padding: 50px 0px;
     }
-  
+
     ul {
       li {
         button {
@@ -471,11 +481,11 @@ body > div{
       }
     }
   }
-  
+
   .link-hover-light:hover {
     color: #495fef;
   }
-  
+
   .isotope-nav li button.active {
     color: #495fef;
   }
@@ -490,7 +500,7 @@ body > div{
       transform: none;
     }
   }
-  
+
   @keyframes rotate-right {
     0% {
       transform: translate(-100%) rotate(-100deg);
@@ -499,10 +509,10 @@ body > div{
       transform: none;
     }
   }
-  
+
   .is-animated {
     animation: .6s zoom-in;
-    // animation: .6s rotate-right; 
+    // animation: .6s rotate-right;
   }
 
 
@@ -511,7 +521,7 @@ body > div{
     width: auto;
     &.no-gutter{
         .masonry-grid_column{
-            padding-left: 0px; 
+            padding-left: 0px;
             &>div{
                 margin-top: 0;
                 margin-bottom: 0;
@@ -523,7 +533,7 @@ body > div{
     padding-left: 15px; /* gutter size */
     background-clip: padding-box;
   }
-  
+
   /* Style your items */
   .masonry-grid_column > div {
     margin: 15px auto;
@@ -586,7 +596,7 @@ body > div{
   .featured-line > div{
     position: relative;
     &:after{
-        
+
         border-top: 1px dotted #ccc;
         width: 55%;
         height: 1px;
@@ -616,11 +626,11 @@ body > div{
     @include mobile-xs {
         margin-top: 40px;
       }
-  
+
       @include tablet {
         margin-top: 60px;
       }
-  
+
       @include desktops {
         margin-top: 85px;
       }

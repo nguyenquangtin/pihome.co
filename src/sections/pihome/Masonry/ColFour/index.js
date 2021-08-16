@@ -35,7 +35,7 @@ export default function MainContent() {
 
   return (
     <>
-      <div className="portfolio-section pt-90" id="gallery">
+      <div className="portfolio-section" id="gallery">
       <div className="container">
           <div className="row">
             <div className="col-lg-12 portfolio-navbar">

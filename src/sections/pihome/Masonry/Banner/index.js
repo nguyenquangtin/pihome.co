@@ -3,7 +3,7 @@ import React from 'react'
 const BannerSection = ({title,text}) => {
 return(
 <>
-<div className="portfolio-banner bg-catskillwhite">
+<div className="portfolio-banner bg-catskillwhite1">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-xl-8 col-lg-8 col-md-10">
@@ -19,5 +19,5 @@ return(
 </>
 )
 }
- 
+
 export default BannerSection

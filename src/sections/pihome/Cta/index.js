@@ -40,8 +40,8 @@ const CtaSection = ({ ...rest }) => {
     <div className="row justify-content-center">
       <div className="col-xxl-5 col-xl-6 col-lg-7 col-md-10">
         <div className="cta-l3-content text-center">
-          <h2>Express your thought seamlessly with appex.</h2>
-          <button className="btn focus-reset">Try it For Free</button>
+          <h2>Nếu bạn vẫn còn đủ thông tin vui lòng liên hệ với chúng tôi.</h2>
+          <button className="btn focus-reset">Liên lạc ngay</button>
         </div>
       </div>
     </div>
