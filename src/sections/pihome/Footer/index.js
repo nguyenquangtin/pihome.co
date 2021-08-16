@@ -107,7 +107,7 @@ export default function FooterSection({ ...rest }) {
               <div className="col-md-6">
                 <div className="copy-right-text">
                   <p className="text-lynch mb-0">
-                    Copyright 2020, All Rights Reserved
+                    Copyright 2021, PiHome.Co. All rights reserved.
                   </p>
                 </div>
               </div>
