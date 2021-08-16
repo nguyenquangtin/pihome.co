@@ -6,7 +6,7 @@ export default function FooterSection({ ...rest }) {
     <>
       {/* Footer Area */}
       <div>
-        <footer className="footer-area-l3">
+        <footer className="footer-area-l3" id="contact">
           <div className="container">
             <div className="row footer-quick-link-area justify-content-lg-center">
               <div className="col-lg-3 col-md-4 col-sm-6">
@@ -70,7 +70,9 @@ export default function FooterSection({ ...rest }) {
                 <div className="footer-area-list-item get-in-touch-area">
                   <h4>Liên hệ</h4>
                   <p>Vui lòng liên hệ với chúng tôi nếu cần bất kỳ sự giúp đỡ nào.</p>
-                  <h4>selina.chautruong@gmail.com</h4>
+                  <h3>
+                    <a href="mailto:selina.chautruong@gmail.com">selina.chautruong@gmail.com</a>
+                  </h3>
                   <ul className="list-unstyled">
                     <li>
                       <a href="https://www.facebook.com/pisceshome" rel="noreferrer" target="_blank">

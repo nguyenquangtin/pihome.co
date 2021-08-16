@@ -39,3 +39,10 @@ $text-base: 1.125rem; //18px
 h1,h2,h3,h4,h5,h6 {
   font-family: $font-family-heading;
 }
+
+.main-nav-item {
+  > .nav-link {
+    font-family: $font-family-heading;
+  }
+}
+

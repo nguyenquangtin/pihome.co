@@ -3,7 +3,8 @@
 
 .section__heading {
     h2 {
-        color: $haiti;
+        // color: $haiti;
+        color: $golden;
         font-size: 36px !important;
         font-weight: 700;
         font-style: normal;
@@ -14,7 +15,7 @@
         @include mobile {
             font-size: 38px !important;
         }
-       
+
         @include tablet {
             font-size: 48px !important;
         }
@@ -46,7 +47,7 @@
             font-size: 38px !important;
             line-height: 50px;
         }
-       
+
         @include desktops  {
             font-size: 42px !important;
             line-height: 55px;

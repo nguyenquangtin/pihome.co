@@ -201,7 +201,7 @@ export const menuItems = [
         //         },
         //        ]
         //      },
-        //     //  col_6 : [
+        //     //  col_6 :hệ [
         //     //    {
         //     //     name: "supa",
         //     //     label: "supa",
@@ -240,5 +240,9 @@ export const menuItems = [
          {
            name: "#gallery",
            label: "Bộ sưu tập",
+         },
+         {
+           name: "#contact",
+           label: "Liên hệ",
          },
        ];
