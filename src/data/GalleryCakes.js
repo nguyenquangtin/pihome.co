@@ -32,15 +32,15 @@ import image31  from '../assets/image/collection/2021/c_2021_31.jpg';
 import image32  from '../assets/image/collection/2021/c_2021_32.jpg';
 import image33  from '../assets/image/collection/2021/c_2021_33.jpg';
 import image34  from '../assets/image/collection/2021/c_2021_34.jpg';
-import image35  from '../assets/image/collection/2021/c_2021_35.jpg';
+// import image35  from '../assets/image/collection/2021/c_2021_35.jpg';
 import image36  from '../assets/image/collection/2021/c_2021_36.jpg';
 import image37  from '../assets/image/collection/2021/c_2021_37.jpg';
 import image38  from '../assets/image/collection/2021/c_2021_38.jpg';
 import image39  from '../assets/image/collection/2021/c_2021_39.jpg';
 import image40  from '../assets/image/collection/2021/c_2021_40.jpg';
-import image41  from '../assets/image/collection/2021/c_2021_41.jpg';
+// import image41  from '../assets/image/collection/2021/c_2021_41.jpg';
 import image42  from '../assets/image/collection/2021/c_2021_42.jpg';
-import image43  from '../assets/image/collection/2021/c_2021_43.jpg';
+// import image43  from '../assets/image/collection/2021/c_2021_43.jpg';
 import image44  from '../assets/image/collection/2021/c_2021_44.jpg';
 import image45  from '../assets/image/collection/2021/c_2021_45.jpg';
 import image46  from '../assets/image/collection/2021/c_2021_46.jpg';
@@ -199,27 +199,27 @@ GalleryCakes.masonryDetails2 =[
   id:"31",
   tagi: "animal"
 },
-{
-  image:image43,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"43",
-  tagi: "animal"
-},
-{
-  image:image35,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"35",
-  tagi: "animal"
-},
-{
-  image:image41,
-  titleSmall:"PiHome",
-  title:"Banh",
-  id:"41",
-  tagi: "modern"
-},
+// {
+//   image:image43,
+//   titleSmall:"PiHome",
+//   title:"Banh",
+//   id:"43",
+//   tagi: "animal"
+// },
+// {
+//   image:image35,
+//   titleSmall:"PiHome",
+//   title:"Banh",
+//   id:"35",
+//   tagi: "animal"
+// },
+// {
+//   image:image41,
+//   titleSmall:"PiHome",
+//   title:"Banh",
+//   id:"41",
+//   tagi: "modern"
+// },
 {
   image:image36,
   titleSmall:"PiHome",
