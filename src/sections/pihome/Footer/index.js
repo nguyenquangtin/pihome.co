@@ -14,7 +14,7 @@ export default function FooterSection({ ...rest }) {
                   <h4>Thông tin</h4>
                   <ul className="list-unstyled">
                     <li>
-                      <Link to="/">Về Nhà Pi</Link>
+                      <Link to="/about-pihome">Về Nhà Pi</Link>
                     </li>
                     <li>
                       <Link to="/">Bảng giá</Link>

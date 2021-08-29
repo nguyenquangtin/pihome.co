@@ -48,6 +48,7 @@ export default function PageWrapper({
   HeaderButton,
   children,
   innerPageHeader,
+  showLogin
 }) {
   const [visibleLoader, setVisibleLoader] = React.useState(true);
   React.useEffect(() => {
@@ -57,20 +58,24 @@ export default function PageWrapper({
   }, []);
   return (
     <>
-    <Helmet>
-          <title>PiHome</title>
-          <link rel="icon" type="image/png" href={favicon} />
-    </Helmet>
-    <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
-          <img src={Preloader} alt="loader" className={visibleLoader ? "d-block" : "d-none"}/>
+      <Helmet>
+        <title>PiHome</title>
+        <link rel="icon" type="image/png" href={favicon} />
+      </Helmet>
+      <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
+        <img
+          src={Preloader}
+          alt="loader"
+          className={visibleLoader ? "d-block" : "d-none"}
+        />
       </Loader>
-      <div className={`site-wrapper ${visibleLoader ?  "" : "show"}`}>
-      <Header
-        headerConfig={innerPageHeader ? innerHeader : headerConfig}
-        buttonBlock={innerPageHeader ? <InnerHeaderButton /> : HeaderButton}
-      />
-      {children}
+      <div className={`site-wrapper ${visibleLoader ? "" : "show"}`}>
+        <Header
+          headerConfig={innerPageHeader ? innerHeader : headerConfig}
+          buttonBlock={showLogin ? <InnerHeaderButton /> : HeaderButton}
+        />
+        {children}
       </div>
     </>
-  )
+  );
 }

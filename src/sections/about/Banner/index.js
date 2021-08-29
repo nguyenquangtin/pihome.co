@@ -12,15 +12,14 @@ export default function BannerSection() {
             data-aos-once="true"
           >
             <div className="about-us-banner-content text-center">
-              <h2>We help business to grow their customer base</h2>
+              <h2>
+                Đôi lời về Nhà Pi <br />
+                <q>Pi Home</q>
+              </h2>
               <p>
-                Leverage agile frameworks to provide a robust synopsis for high
-                level overviews. Iterative approaches to corporate strategy
-                foster collaborative thinking.
+                Nhà Pi là tâm huyết của các thành viên trong trong team.
+                Mong muốn lớn nhất là đem tới mọi người các lọai bánh ngon và ngọt cả về "mắt" và "miệng".
               </p>
-              <Link to="/contact-us" className="btn focus-reset">
-                Contact Us
-              </Link>
             </div>
           </div>
         </div>

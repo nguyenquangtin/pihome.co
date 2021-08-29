@@ -16,11 +16,9 @@ const TeamSection = ({ className }) => {
               data-aos-once="true"
             >
               <div className="section__heading text-center">
-                <h2>Meet our team</h2>
+                <h2>Thành viên nhà Pi</h2>
                 <p>
-                  Leverage agile frameworks to provide a robust synopsis for
-                  high level overviews. Iterative approaches to corporate
-                  strategy.
+                  Đây là các thành viên mang đến các tác phẩm chuyên nghiệp của Nhà Pi đến cho mọi người.
                 </p>
               </div>
             </div>
@@ -44,7 +42,7 @@ const TeamSection = ({ className }) => {
               )
             })}
 
-            <div
+            {/* <div
               className="col-lg-3 col-sm-6 col-10"
               data-aos="fade-up"
               data-aos-duration={800}
@@ -58,7 +56,8 @@ const TeamSection = ({ className }) => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
+
           </div>
         </div>
       </div>

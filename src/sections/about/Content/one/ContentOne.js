@@ -1,12 +1,12 @@
 import React from "react"
-import imageOne from "../../../../assets/image/about/about-img-1.png"
-import imageTwo from "../../../../assets/image/about/about-img-2.png"
+import imageOne from "../../../../assets/image/about/about-img-1.jpg"
+import imageTwo from "../../../../assets/image/about/about-img-2.jpg"
 
 const ContentSectionOne = ({ ...rest }) => {
   return (
     <>
       {/* About us content-1 */}
-      <div className="about-content-1">
+      <div className="about-content-1 mt-3">
         <div className="container">
           <div className="row">
             <div
@@ -38,7 +38,10 @@ const ContentSectionOne = ({ ...rest }) => {
               data-aos-once="true"
             >
               <div className="section__heading">
-                <h2>Empower business to achieve success.</h2>
+                <h2>
+                  Đôi lời về Nhà Pi <br />
+                  Pi Home
+                </h2>
               </div>
             </div>
             <div
@@ -49,19 +52,8 @@ const ContentSectionOne = ({ ...rest }) => {
             >
               <div className="about-content-1-content">
                 <p>
-                  Leverage agile frameworks to provide a robust synopsis for
-                  high level overviews. Iterative approaches to corporate
-                  strategy foster collaborative thinking.
-                </p>
-                <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation
-                </p>
-                <p>
-                  Heading towards a streamlined cloud solution. User generated
-                  content in real-time will have multiple touchpoints for
-                  offshoring.
+                  Nhà Pi là tâm huyết của các thành viên trong trong team.
+                  Mong muốn lớn nhất là đem tới mọi người các lọai bánh ngon vừa ngon miệng và đã mắt.
                 </p>
               </div>
             </div>
@@ -69,7 +61,7 @@ const ContentSectionOne = ({ ...rest }) => {
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default ContentSectionOne
