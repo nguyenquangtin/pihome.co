@@ -1,7 +1,7 @@
 {
-  "name": "gdg-mientrung-v2",
+  "name": "Pihome",
   "private": true,
-  "description": "Digital Homepage for GDGMientrung",
+  "description": "Homepage for Pihome",
   "version": "0.1.0",
   "author": "nguyenquangtin@gmail.com",
   "dependencies": {
