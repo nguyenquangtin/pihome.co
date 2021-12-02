@@ -1,5 +1,5 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
 export default function FooterSection({ ...rest }) {
   return (
@@ -69,18 +69,31 @@ export default function FooterSection({ ...rest }) {
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div className="footer-area-list-item get-in-touch-area">
                   <h4>Liên hệ</h4>
-                  <p>Vui lòng liên hệ với chúng tôi nếu cần bất kỳ sự giúp đỡ nào.</p>
+                  <p>
+                    Vui lòng liên hệ với chúng tôi nếu cần bất kỳ sự giúp đỡ
+                    nào.
+                  </p>
                   <h3>
-                    <a href="mailto:selina.chautruong@gmail.com">selina.chautruong@gmail.com</a>
+                    <a href="mailto:selina.chautruong@gmail.com">
+                      selina.chautruong@gmail.com
+                    </a>
                   </h3>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="https://www.facebook.com/pisceshome" rel="noreferrer" target="_blank">
+                      <a
+                        href="https://www.facebook.com/pisceshome"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.facebook.com/nhapi.cake" rel="noreferrer" target="_blank">
+                      <a
+                        href="https://www.facebook.com/nhapi.cake"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>
@@ -101,7 +114,8 @@ export default function FooterSection({ ...rest }) {
               <div className="col-md-6">
                 <div className="copy-right-text">
                   <p className="text-lynch mb-0">
-                    Bản quyền &copy;2021, PiHome.Co. Tất cả các quyền được bảo lưu.
+                    Bản quyền &copy;2021, PiHome.Co. Tất cả các quyền được bảo
+                    lưu.
                   </p>
                 </div>
               </div>
@@ -110,5 +124,5 @@ export default function FooterSection({ ...rest }) {
         </div>
       </div>
     </>
-  )
+  );
 }
